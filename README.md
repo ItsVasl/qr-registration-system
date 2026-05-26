@@ -7,7 +7,7 @@ This system processes registration data from an Excel file, generates unique QR 
 
 ## Features
 - Reads and processes registration data from Excel (pandas)
-- Generates unique QR codes for each participant
+- Generates unique QR codes for each participant (Example dataset included (sample_data.xlsx) for testing)
 - Sends automated emails with QR codes attached
 - Handles multiple registration states (e.g. confirmed, partially paid)
 - Reduces manual verification effort during events

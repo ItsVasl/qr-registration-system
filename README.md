@@ -1,6 +1,6 @@
 # QR Attendance Verification System
 
-A QR-based registration and verification system built for an NGO to automate attendee management.
+A real world QR-based attendance system used in an NGO event to automate registration, verification, and email distribution.
 
 ## Overview
 This system processes registration data from an Excel file, generates unique QR codes for each participant, and sends them via email. At the event, these QR codes can be scanned to verify registration status instantly.

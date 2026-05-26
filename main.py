@@ -1,4 +1,4 @@
-pip install -r requirements.text
+pip install -r requirements.txt
 import qrcode
 import pandas as pd
 import smtplib

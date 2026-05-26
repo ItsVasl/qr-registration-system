@@ -5,6 +5,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage
 from email.mime.text import MIMEText
+import os
 
 # Load data here
 df = pd.read_excel('sample_data.xlsx')
@@ -12,8 +13,8 @@ df = pd.read_excel('sample_data.xlsx')
 # Email server configuration
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
-smtp_user = 'EnterYourMailHere'
-smtp_password = 'EnterYourPassword'
+smtp_user = os.getenv("SMTP_USER")
+smtp_password = os.getenv("SMTP_PASS")
 
 def send_email(receiver_email, subject, body, qr_code):
     msg = MIMEMultipart()

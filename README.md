@@ -2,6 +2,10 @@
 
 A real world QR-based attendance system used in an NGO event to automate registration, verification, and email distribution.
 
+## Why this matters
+Manual attendance and verification at events is slow and error-prone.  
+This system automates the entire pipeline; from registration to entry verification while reducing manual effort and improving accuracy.
+
 ## Overview
 This system processes registration data from an Excel file, generates unique QR codes for each participant, and sends them via email. At the event, these QR codes can be scanned to verify registration status instantly.
 
